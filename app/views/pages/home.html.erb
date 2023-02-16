@@ -1,4 +1,9 @@
 
 <div class="mx-auto py-12 max-w-2xl">
-  <%= render "" %>
+  <%= render (FancySelectComponent.new(
+    label: "Choose a person",
+    form_name: :person_id,
+    items: @items
+  )) %>
+
 </div>

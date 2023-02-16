@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: [require('@tailwindcss/forms')],
   content: [
     './app/components/**/*.html.erb',
     './app/components/**/*.erb',
